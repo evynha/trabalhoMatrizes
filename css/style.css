@@ -1,0 +1,114 @@
+table {
+  width: 100px;
+  border-collapse: collapse;
+  border: 3px solid #000;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+table td, table th {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #000000;
+}
+
+table th {
+  background-color: #000000;
+}
+
+body{
+    background-color: rgb(211, 207, 207);
+}
+
+h1{
+    background-color: rgb(89, 173, 230);
+    color:white;
+    border: 2px solid #ccc;
+      padding: 20px;
+      font-family: 'Playfair Display', serif;
+      text-align: center;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
+.animacao {
+    animation:  15s infinite ;
+    animation-name: slidein;
+  }
+
+
+.bem{
+  width: 150px;
+  height: 100px;
+}
+
+p,li{
+  text-align: justify;
+  font-family: 'Ysabeau', sans-serif;
+  font-size: 20px;
+  margin-top: 20px;
+  text-indent: 20px;
+}
+
+h2{
+  background-color: rgb(89, 173, 230);
+    color:white;
+    border: 2px solid #ccc;
+  padding: 10px;
+  display: inline-block;
+}
+
+.organizacao{
+ margin-left: 50px;
+}
+
+.autora{
+  width: 200px;
+  height: 250px;
+  display: inline;
+  margin-left: 50px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  position: relative;
+  padding-left: 20px;
+}
+
+ul li:before {
+  content: "►";
+  position: absolute;
+  left: 0;
+}
+
+.outra{
+  background-color: rgb(89, 173, 230);
+    color:white;
+    padding: 5px;
+    display: inline-block;
+}
+
+.multiplicacaoMatrizes{
+  width: 400px;
+  height: 250px;
+  margin-left: 60px;
+}
+
+.sinais{
+  text-align: center;
+}
